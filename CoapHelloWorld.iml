@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
-    <libelement value="jar://$MODULE_DIR$/californium-core-1.0.0-SNAPSHOT.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/californium-core-1.0.0-SNAPSHOT-sources.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/element-connector-1.0-SNAPSHOT.jar!/" />
+    <libelement value="file://E:/JavaSpring/CoapHelloWorld/californium-core-1.0.0-SNAPSHOT.jar" />
+    <libelement value="file://E:/JavaSpring/CoapHelloWorld/californium-core-1.0.0-SNAPSHOT-sources.jar" />
+    <libelement value="file://E:/JavaSpring/CoapHelloWorld/element-connector-1.0-SNAPSHOT.jar" />
     <src_description expected_position="0">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
     </src_description>
@@ -19,7 +19,7 @@
     <orderEntry type="module-library">
       <library name="californium-core-1.0.0-SNAPSHOT.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/californium-core-1.0.0-SNAPSHOT.jar!/" />
+          <root url="file://E:/JavaSpring/CoapHelloWorld/californium-core-1.0.0-SNAPSHOT.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,7 +28,7 @@
     <orderEntry type="module-library">
       <library name="californium-core-1.0.0-SNAPSHOT-sources.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/californium-core-1.0.0-SNAPSHOT-sources.jar!/" />
+          <root url="file://E:/JavaSpring/CoapHelloWorld/californium-core-1.0.0-SNAPSHOT-sources.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -37,7 +37,17 @@
     <orderEntry type="module-library">
       <library name="element-connector-1.0-SNAPSHOT.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/element-connector-1.0-SNAPSHOT.jar!/" />
+          <root url="file://E:/JavaSpring/CoapHelloWorld/element-connector-1.0-SNAPSHOT.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="element-connector-1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/gson-2.8.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
