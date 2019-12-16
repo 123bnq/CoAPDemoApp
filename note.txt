@@ -1,0 +1,7 @@
+Battery – device – vehicle: capacity
+gateway: charging on command, charging depends on current time of day, keep the battery at certain percentage if it is required to, charge duration
+charger: send consumed power (voltage, current), receive command for charge power
+baterry sensor: monitor percentage, max capacity, current capacity, temperature
+charging rate decreases when using another appliances: washing machine, electric stove, dish washer, tumble dryer.
+Home Power measurement: current power consumption, max power consumption
+input schedule in gateway – client application
