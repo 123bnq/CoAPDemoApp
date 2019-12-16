@@ -5,8 +5,6 @@ import org.eclipse.californium.core.CoapClient;
 import org.eclipse.californium.core.CoapResponse;
 import org.eclipse.californium.core.coap.MediaTypeRegistry;
 
-import java.util.Random;
-
 public class CoapClientTest {
 
     public static void main(String[] args) throws InterruptedException {
@@ -23,9 +21,8 @@ public class CoapClientTest {
             System.out.println("Request failed");
         }
 
-        Random r = new Random();
         while (true) {
-            int num = r.nextInt();
+            int num = Math.round((float)Math.random()*(100-0)) + 0;
             System.out.println(num);
             Book book = new Book("Dragon story", num);
             String bla = new Gson().toJson(book);
