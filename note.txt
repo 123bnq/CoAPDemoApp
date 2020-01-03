@@ -5,4 +5,4 @@ baterry sensor: monitor percentage, max capacity, current capacity, temperature
 charging rate decreases when using another appliances: washing machine, electric stove, dish washer, tumble dryer.
 Home Power measurement: current power consumption, max power consumption
 input schedule in gateway – client application
-https://www.slideshare.net/paolopat/internet-of-things-my-washing-machine-on-internet?next_slideshow=1
+https://www.slideshare.net/jvermillard/hands-on-with-coap-36793005
